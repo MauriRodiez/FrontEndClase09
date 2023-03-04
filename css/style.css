@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+/* Header */
+
+.header-container-top{
+    background-color: #222222;
+    color: #F3F3F3;
+}
+
+.header-texto{
+    font-size: 13px;
+}
+
+.header-lista li{
+    font-size: 10px;
+}
+
+.header-container-bottom{
+    background-color: #F0A83E;
+}
+
+.logotipo span{
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logotipo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-nav{
+    font-size: 13px;
+    color: #fff;
+}
+
+/* Main */
+
+.titulo-principal{
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner-central{
+    background-image: url(../img/Slide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+}
+
+.titulo-banner{
+    text-align: center;
+    font-size: 16px;
+    font-weight:lighter;
+}
+
+.btn-banner{
+    background-color: #F0A83E;
+    color: #fff;
+    margin: auto;
+    width: 141px;
+}
+
+.btn-banner p{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.titulo-productos{
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitulos{
+    color: #666;
+    font-size: 15px;
+}
+
+.productos{
+    background-color: #FBFAF6;
+}
+
+.contacto{
+    background-color: #3C2313;
+}
+
+.contacto h4{
+    color: #fff;
+} 
+
+.contacto h6{
+    color: #8A8787;
+}
+
+.logotipo-bottom span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logotipo-bottom{
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    background-color: #F0A83E;
+}
+
+.derechos{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
