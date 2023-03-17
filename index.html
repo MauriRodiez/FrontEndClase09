@@ -12,8 +12,8 @@
       <section class="header-container-top">
         <p class="header-texto">Grandes ofertas en comedor</p>
         <ul class="header-lista">
-          <li>Español</li>
-          <li>$URU</li>
+          <li>Español ▼</li>
+          <li>$URU ▼</li>
         </ul> 
       </section>
       <section class="header-container-bottom">
@@ -22,60 +22,102 @@
             <img src="img/Cat.png" alt="Gato" />
             <span>Front</span>
             Cat&Dog
-            <img src="img/Dog.png" alt="Perro" />
+            <img src="img/Dog.png" alt="Perro" /> 
           </p>
         </div>
         <ul class="menu-nav">
           <li>
-            <span><img src="img/pawprint 1.png" alt="" /></span>Categorias
+            <span class="icono-nav"><img src="img/pawprint 1.png" alt="" /></span>
+            Categorias
           </li>
           <li>
-            <span><img src="img/pawprint 1.png" alt="" /></span>Pets
+            <span class="icono-nav"><img src="img/pawprint 1.png" alt="" /></span>
+            Pets
           </li>
           <li>
-            <span><img src="img/pawprint 1.png" alt="" /></span>Nosotros
+            <span class="icono-nav"><img src="img/pawprint 1.png" alt="" /></span>
+            Nosotros
           </li>
           <li>
-            <span><img src="img/pawprint 1.png" alt="" /></span>Contactanos
+            <span class="icono-nav"><img src="img/pawprint 1.png" alt="" /></span>
+            Contactanos
           </li>
         </ul> 
       </section>
     </header>
-    <main>
-      <h1 class="titulo-principal">¡Es un placer tenerte aqui!</h1>
+    <main>      
       <section class="banner-central">
+        <div class="box-title">
+          <h1 class="titulo-principal">¡Es un placer tenerte aqui!</h1>
+        </div>
         <h3 class="titulo-banner">¡Comederos en descuento!</h3>
-        <div class="btn-banner"><p>Comederos</p></div>
+        <a href="" class="btn-banner">
+          <p>Comederos</p>
+        </a>
       </section>
-      <h2 class="titulo-productos">Productos destacados</h2>
-      <p class="subtitulos">Comederos - Accesorios - Comidas</p>
+      <div class="content-title">
+        <img src="img/pawprint.png" alt="Icono pata">
+        <h2 class="titulo-productos">Productos destacados</h2>
+        <p class="subtitulos">Comederos - Accesorios - Comidas</p>
+      </div>      
       <section class="productos">
-        <div>
+        <div class="promo">
           <img src="img/Churrasquito.png" alt="Churrasquito" />
         </div>
-        <div>
+        <div class="promo">
           <img src="img/Churrasquito.png" alt="Churrasquito" />
         </div>
-        <div>
+        <div class="promo">
           <img src="img/Churrasquito.png" alt="Churrasquito" />
         </div>
+      </section>
+      <section class="contenedor-contacto">
+        <h3 class="titulo-form">Contáctanos</h3>
+        <form class="formulario" action="">
+          <input class="txt-box" type="text" placeholder="Nombre y Apellido">
+          <input class="txt-box" type="email" placeholder="Ingresa tu correo electrónico">
+          <input class="txt-box" type="tel" placeholder="Teléfono">
+          <div class="botones">
+            <button class="reset"><a  href="">Resetear</a></button>
+            <button class="send"><a href="">Enviar</a></button>
+          </div>
+        </form>
+      </section>
+      <section class="newsletter">
+        <p class="msj-suscribirse">
+          <span><img src="img/enviar-correo 1.png" alt=""></span>
+          Suscríbete para más novedades
+        </p>
+        <form class="suscripcion">
+          <input class="txt-mail" type="email" placeholder="Ingresa tu corre electrónico">
+          <button class="btn-send"><a href="">Suscribirme</a></button>
+        </form>
       </section>
       <section class="contacto">
-            <div>
+          <div class="contenedor-info">
+            <div class="box-iconos">
                 <img src="img/Icono.png" alt="">
-                <h4>Localidad</4>
-                <h6>Calle - Provincia</h6>
+                <div class="txt-info">
+                  <h4>Localidad</4>
+                  <h6>Calle - Provincia</h6>
+                </div>
+                
             </div>
-            <div>
+            <div class="box-iconos">
                 <img src="img/Icono-tel.png" alt="">
-                <h4>Telefono</4>
-                <h6>015-111-112-326</h6>
+                <div class="txt-info">
+                  <h4>Telefono</4>
+                  <h6>015-111-112-326</h6>
+                </div>
             </div>
-            <div>
+            <div class="box-iconos">
                 <img src="img/Icono.png" alt="">
-                <h4>Correo Electronico</4>
-                <h6>info@catdog.com</h6>
+                <div class="txt-info">
+                  <h4>Correo Electronico</4>
+                  <h6>info@catdog.com</h6>
+                </div>
             </div>
+          </div>
             <p class="logotipo-bottom">
                 <img src="img/Cat.png" alt="Gato" />
                 <span>Front</span>
@@ -83,11 +125,11 @@
                 <img src="img/Dog.png" alt="Perro" />
               </p>
       </section>
-      <footer>
-        <p class="derechos">
-            Todos los derechos reservados FrontEnd
-        </p>
-      </footer>
     </main>
+    <footer>
+      <p class="derechos">
+          Todos los derechos reservados FrontEnd
+      </p>
+    </footer>
   </body>
 </html>
