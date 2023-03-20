@@ -436,4 +436,39 @@ footer{
         font-size: 1rem;
     }
 
+    .menu-bar{
+        color: #FFF;
+        display: inherit;
+    }
+
+    .box-title{
+        margin: 10px auto;
+        font-size: 1.25rem;
+        padding: 10px 30px;
+    }
+
+    .titulo-banner{
+        color: #FFF;
+        margin-right: 80px;
+    }
+
+    .btn-banner{
+        margin-right: 80px;
+    }
+
+    .titulo-productos{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .productos{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .promo img{
+        width: 40vw;
+        margin: 10px 0;
+    }
+
 }
