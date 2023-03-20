@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header */
@@ -15,17 +16,18 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
+    width: 100%;
 }
 
 .header-texto{
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 400;
     margin-left: 100px;
 }
 
 .header-lista{
     display: flex;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: normal;
     list-style-type: none;
     margin-right: 50px;
@@ -42,21 +44,22 @@
     justify-content: space-between;
     height: 62px;
     padding: 0 40px;
+    width: 100%;
 }
 
 .logotipo span{
     color: #3C2313;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 .logotipo{
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 .menu-nav{
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #fff;
     display: flex;  
     list-style-type: none;
@@ -70,6 +73,10 @@
     padding: 0 10px;
 }
 
+.menu-bar{
+    display: none;
+}
+
 /* Main */
 
 .banner-central{
@@ -81,6 +88,7 @@
     flex-direction: column;
     height: 409px;
     justify-content: center;
+    width: 100%;
 }
 
 .box-title{
@@ -96,14 +104,14 @@
 }
 
 .titulo-principal{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
 }
 
 .titulo-banner{
     align-self: flex-end;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight:lighter;
     margin-right: 100px;
     margin-top: 15px;
@@ -124,7 +132,7 @@
 }
 
 .btn-banner p{
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -138,23 +146,24 @@
 
 .titulo-productos{
     color: #3C2313;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     margin: 20px 0;
 }
 
 .subtitulos{
     color: #666;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .productos{
     background-color: #FFF;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
-.promo{
+.promo img{
     margin: 0 10px;
 }
 
@@ -169,7 +178,7 @@
 
 .titulo-form{
     color: #3C2313;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -182,7 +191,7 @@
 .txt-box{
     background-color: #3C2313;
     border-radius: 20px;
-    height: 40px;
+    height: 2.5rem;
     margin: 10px 0;
     padding: 10px;
     width: 340px;
@@ -205,7 +214,7 @@
 }
 
 .reset a{
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFF;
     text-decoration: none;
 }
@@ -219,7 +228,7 @@
 }
 
 .send a{
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFF;
     text-decoration: none;
 }
@@ -230,13 +239,14 @@
     display: flex;
     justify-content: space-between;
     height: 60px;
+    width: 100%;
 }
 
 .msj-suscribirse{
     align-items: center;
     color: #FFF;
     display: flex;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     margin: auto 20px;
 }
@@ -253,7 +263,7 @@
     background-color: #fff;
     border: 0;
     border-radius: 20px;
-    height: 20px;
+    height: 40px;
     margin: 10px 0;
     padding: 10px;
     width: 271px;
@@ -271,7 +281,7 @@
 }
 
 .btn-send a{
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFF;
     text-decoration: none;
 }
@@ -282,6 +292,7 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 50px;
+    width: 100%;
 }
 
 .contenedor-info{
@@ -291,6 +302,10 @@
 
 .box-iconos{
     display: flex;
+}
+
+.box-iconos{
+    margin: 10px 0;
 }
 
 .txt-info{
@@ -308,12 +323,12 @@
 
 .logotipo-bottom span{
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 .logotipo-bottom{
     color: #F0A83E;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
@@ -322,13 +337,103 @@
 footer{
     background-color: #222222;
     height: 20px;
+    width: 100.%;
 }
 
 .derechos{
     color: #fff;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: bold;
     text-align: center;
     line-height: 12px;
     padding: 5px 0;
+}
+
+/* Responsive - Media queries */
+
+@media screen and (max-width: 768px) {
+    
+    .promo img{
+       width: 16vh;
+    }
+
+    .box-title{
+        height: auto;
+        padding: 10px;
+        width: auto;
+    }
+    
+    .titulo-principal{
+        font-size: 1.25rem;
+    }
+
+    .titulo-banner{
+        font-size: 0.875rem;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    
+    .btn-banner{
+        height: auto;
+        margin-right: 80px;
+        margin-top: 10px;
+        padding: 10px;
+        width: auto;
+    }
+    
+    .btn-banner p{
+        font-size: 0.875rem;
+    }
+
+    .msj-suscribirse{
+        font-size: 1rem;
+    }
+
+    .txt-mail{
+        width: 190px;
+    }
+
+    .btn-send{
+        padding: 10px;
+        height: auto;
+        width: auto;
+    }
+
+    .btn-send a{
+        font-size: 0.75rem;
+    }
+
+}
+
+@media screen and (max-width: 628px) {
+
+    .newsletter{
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .suscripcion{
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-container-top{
+        display: none;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+
+    .logotipo span{
+        font-size: 1rem;
+    }
+
+    .logotipo{
+        font-size: 1rem;
+    }
+
 }
