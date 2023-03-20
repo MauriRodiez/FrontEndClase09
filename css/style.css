@@ -354,7 +354,7 @@ footer{
 @media screen and (max-width: 768px) {
     
     .promo img{
-       width: 16vh;
+       width: 27vw;
     }
 
     .box-title{
@@ -467,8 +467,17 @@ footer{
     }
 
     .promo img{
-        width: 40vw;
+        width: 70vw;
         margin: 10px 0;
+    }
+
+    .contacto{
+        flex-direction: column;
+    }
+
+    .logotipo-bottom{
+        font-size: 0.9375rem;
+        order: -1;
     }
 
 }
