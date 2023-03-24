@@ -59,8 +59,6 @@
 }
 
 .menu-nav{
-    font-size: 0.8125rem;
-    color: #fff;
     display: flex;  
     list-style-type: none;
 }
@@ -71,6 +69,20 @@
 
 .menu-nav li{
     padding: 0 10px;
+}
+
+.menu-nav li::before{
+    content: url(../img/pawprint\ 1.png);
+}
+
+.menu-nav li a{
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-nav li a:hover{
+    text-decoration: underline;
 }
 
 .menu-bar{
@@ -191,6 +203,7 @@
 .txt-box{
     background-color: #3C2313;
     border-radius: 20px;
+    color: #FFF;
     height: 2.5rem;
     margin: 10px 0;
     padding: 10px;
@@ -198,6 +211,18 @@
 }
 .txt-box::placeholder{
     color: #FFF;
+}
+
+.txt-box:focus{
+    background-color: #F0A83E;
+}
+
+.txt-box:valid{
+    border: #1fe405 solid 2px;
+}
+
+.txt-box:invalid{
+    border: #ff0000 solid 2px;
 }
 
 .botones{
@@ -208,29 +233,31 @@
 .reset{
     background-color: #8A8787;
     border: 0;
-    border-radius: 20px;
+    border-radius: 20px;    
+    color: #FFF;
+    font-size: 1rem;
+    text-decoration: none;
     height: 34px;
     width: 110px;
 }
 
-.reset a{
-    font-size: 1rem;
-    color: #FFF;
-    text-decoration: none;
+.reset:hover{
+    background-color: #222222;
 }
 
 .send{
     background-color: #F0A83E;
     border: 0;
     border-radius: 20px;
+    font-size: 1rem;
+    color: #FFF;
+    text-decoration: none;
     height: 34px;
     width: 110px;
 }
 
-.send a{
-    font-size: 1rem;
-    color: #FFF;
-    text-decoration: none;
+.send:hover{
+    background-color: #222222;
 }
 
 .newsletter{
@@ -272,18 +299,19 @@
     color: #a0a0a0;
 }
 
-.btn-send{
+.btn-sus{
     background-color: #3C2313;
     border: 0;
+    color: #FFF;
     border-radius: 20px;
     height: 34px;
+    font-size: 1rem;
+    text-decoration: none;
     width: 110px;
 }
 
-.btn-send a{
-    font-size: 1rem;
-    color: #FFF;
-    text-decoration: none;
+.btn-sus:hover{
+    background-color:#ff0000;
 }
 
 .contacto{
