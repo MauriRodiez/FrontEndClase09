@@ -63,10 +63,6 @@
     list-style-type: none;
 }
 
-.icono-nav{
-    padding-right: 5px;
-}
-
 .menu-nav li{
     padding: 0 10px;
 }
@@ -330,16 +326,12 @@
 
 .box-iconos{
     display: flex;
-}
-
-.box-iconos{
     margin: 10px 0;
 }
 
 .txt-info{
     margin-left: 20px;
 }
-
 
 .contacto h4{
     color: #fff;
@@ -365,7 +357,7 @@
 footer{
     background-color: #222222;
     height: 20px;
-    width: 100.%;
+    width: 100%;
 }
 
 .derechos{
@@ -381,131 +373,131 @@ footer{
 
 @media screen and (max-width: 768px) {
     
-    .promo img{
-       width: 27vw;
-    }
+.promo img{
+    width: 27vw;
+}
 
-    .box-title{
-        height: auto;
-        padding: 10px;
-        width: auto;
-    }
+.box-title{
+    height: auto;
+    padding: 10px;
+    width: auto;
+}
     
-    .titulo-principal{
-        font-size: 1.25rem;
-    }
+.titulo-principal{
+    font-size: 1.25rem;
+}
 
-    .titulo-banner{
-        font-size: 0.875rem;
-        margin-right: 50px;
-        margin-top: 10px;
-    }
+.titulo-banner{
+    font-size: 0.875rem;
+    margin-right: 50px;
+    margin-top: 10px;
+}
     
-    .btn-banner{
-        height: auto;
-        margin-right: 80px;
-        margin-top: 10px;
-        padding: 10px;
-        width: auto;
-    }
+.btn-banner{
+    height: auto;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    width: auto;
+}
     
-    .btn-banner p{
-        font-size: 0.875rem;
-    }
+.btn-banner p{
+    font-size: 0.875rem;
+}
 
-    .msj-suscribirse{
-        font-size: 1rem;
-    }
+.msj-suscribirse{
+    font-size: 1rem;
+}
 
-    .txt-mail{
-        width: 190px;
-    }
+.txt-mail{
+    width: 190px;
+}
 
-    .btn-send{
-        padding: 10px;
-        height: auto;
-        width: auto;
-    }
+.btn-send{
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
 
-    .btn-send a{
-        font-size: 0.75rem;
-    }
+.btn-send a{
+    font-size: 0.75rem;
+}
 
 }
 
 @media screen and (max-width: 628px) {
 
-    .newsletter{
-        flex-direction: column;
-        height: 100px;
-        justify-content: center;
-    }
+.newsletter{
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+}
 
-    .suscripcion{
-        margin:auto;
-    }
+.suscripcion{
+    margin:auto;
+}
 }
 
 @media screen and (max-width: 480px) {
 
-    .header-container-top{
-        display: none;
-    }
+.header-container-top{
+    display: none;
+}
 
-    .menu-nav{
-        display: none;
-    }
+.menu-nav{
+    display: none;
+}
 
-    .logotipo span{
-        font-size: 1rem;
-    }
+.logotipo span{
+    font-size: 1rem;
+}
 
-    .logotipo{
-        font-size: 1rem;
-    }
+.logotipo{
+    font-size: 1rem;
+}
 
-    .menu-bar{
-        color: #FFF;
-        display: inherit;
-    }
+.menu-bar{
+    color: #FFF;
+    display: inherit;
+}
 
-    .box-title{
-        margin: 10px auto;
-        font-size: 1.25rem;
-        padding: 10px 30px;
-    }
+.box-title{
+    margin: 10px auto;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
 
-    .titulo-banner{
-        color: #FFF;
-        margin-right: 80px;
-    }
+.titulo-banner{
+    color: #FFF;
+    margin-right: 80px;
+}
 
-    .btn-banner{
-        margin-right: 80px;
-    }
+.btn-banner{
+    margin-right: 80px;
+}
 
-    .titulo-productos{
-        font-size: 3rem;
-        text-align: center;
-    }
+.titulo-productos{
+    font-size: 3rem;
+    text-align: center;
+}
 
-    .productos{
-        align-items: center;
-        flex-direction: column;
-    }
+.productos{
+    align-items: center;
+    flex-direction: column;
+}
 
-    .promo img{
-        width: 70vw;
-        margin: 10px 0;
-    }
+.promo img{
+    width: 70vw;
+    margin: 10px 0;
+}
 
-    .contacto{
-        flex-direction: column;
-    }
+.contacto{
+    flex-direction: column;
+}
 
-    .logotipo-bottom{
-        font-size: 0.9375rem;
-        order: -1;
+.logotipo-bottom{
+    font-size: 0.9375rem;
+    order: -1;
     }
 
 }

@@ -1,0 +1,444 @@
+/* Generales */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.header-container-top {
+  align-items: center;
+  background-color: #222222;
+  color: #F3F3F3;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+}
+.header-container-top .header-texto {
+  font-size: 0.625rem;
+  font-weight: 400;
+  margin-left: 100px;
+}
+.header-container-top .header-lista {
+  display: flex;
+  font-size: 0.625rem;
+  font-weight: normal;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.header-container-top .header-lista li {
+  padding: 0 10px;
+}
+
+.header-container-bottom {
+  align-items: center;
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  padding: 0 40px;
+  width: 100%;
+}
+.header-container-bottom .logotipo {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.header-container-bottom .logotipo span {
+  color: #3C2313;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.header-container-bottom .menu-nav {
+  display: flex;
+  list-style-type: none;
+}
+.header-container-bottom .menu-nav li {
+  padding: 0 10px;
+}
+.header-container-bottom .menu-nav li::before {
+  content: url(../img/pawprint\ 1.png);
+}
+.header-container-bottom .menu-nav li a {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  color: #fff;
+}
+.header-container-bottom .menu-nav li a:hover {
+  text-decoration: underline;
+}
+.header-container-bottom .menu-bar {
+  display: none;
+}
+
+/* Main */
+.banner-central {
+  align-items: center;
+  background-image: url(../img/Slide.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 409px;
+  justify-content: center;
+  width: 100%;
+}
+.banner-central .box-title {
+  align-items: center;
+  align-self: flex-end;
+  background-color: #FFF;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  height: 54px;
+  margin-right: 10px;
+  width: 365px;
+}
+.banner-central .box-title .titulo-principal {
+  font-size: 1.625rem;
+  text-align: center;
+}
+.banner-central .titulo-banner {
+  align-self: flex-end;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.banner-central .btn-banner {
+  align-items: center;
+  align-self: flex-end;
+  background-color: #F0A83E;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 49px;
+  margin-right: 120px;
+  margin-top: 15px;
+  text-decoration: none;
+  width: 141px;
+}
+.banner-central .btn-banner p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.content-title .titulo-productos {
+  color: #3C2313;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.content-title .subtitulos {
+  color: #666;
+  font-size: 0.9375rem;
+}
+
+.productos {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.productos .promo img {
+  margin: 0 10px;
+}
+
+.contenedor-contacto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0;
+  width: 100%;
+}
+.contenedor-contacto .titulo-form {
+  color: #3C2313;
+  font-size: 1.5625rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contenedor-contacto .formulario {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-contacto .formulario .txt-box {
+  background-color: #3C2313;
+  border-radius: 20px;
+  color: #FFF;
+  height: 2.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  width: 340px;
+}
+.contenedor-contacto .formulario .txt-box::-moz-placeholder {
+  color: #FFF;
+}
+.contenedor-contacto .formulario .txt-box::placeholder {
+  color: #FFF;
+}
+.contenedor-contacto .formulario .txt-box:focus {
+  background-color: #F0A83E;
+}
+.contenedor-contacto .formulario .txt-box:valid {
+  border: #1fe405 solid 2px;
+}
+.contenedor-contacto .formulario .txt-box:invalid {
+  border: #ff0000 solid 2px;
+}
+.contenedor-contacto .formulario .botones {
+  align-self: center;
+  margin: 30px 0;
+}
+.contenedor-contacto .formulario .botones .reset {
+  background-color: #8A8787;
+  border: 0;
+  border-radius: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  text-decoration: none;
+  height: 34px;
+  width: 110px;
+}
+.contenedor-contacto .formulario .botones .reset:hover {
+  background-color: #222222;
+}
+.contenedor-contacto .formulario .botones .send {
+  background-color: #F0A83E;
+  border: 0;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #FFF;
+  text-decoration: none;
+  height: 34px;
+  width: 110px;
+}
+.contenedor-contacto .formulario .botones .send:hover {
+  background-color: #222222;
+}
+
+.newsletter {
+  align-items: center;
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+.newsletter .msj-suscribirse {
+  align-items: center;
+  color: #FFF;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: auto 20px;
+}
+.newsletter .msj-suscribirse span {
+  margin: 0 10px;
+}
+.newsletter .suscripcion {
+  margin-right: 20px;
+}
+.newsletter .suscripcion .txt-mail {
+  background-color: #fff;
+  border: 0;
+  border-radius: 20px;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 271px;
+}
+.newsletter .suscripcion .txt-mail::-moz-placeholder {
+  color: #a0a0a0;
+}
+.newsletter .suscripcion .txt-mail::placeholder {
+  color: #a0a0a0;
+}
+.newsletter .suscripcion .btn-sus {
+  background-color: #3C2313;
+  border: 0;
+  color: #FFF;
+  border-radius: 20px;
+  height: 34px;
+  font-size: 1rem;
+  text-decoration: none;
+  width: 110px;
+}
+.newsletter .suscripcion .btn-sus:hover {
+  background-color: #ff0000;
+}
+
+.contacto {
+  align-items: center;
+  background-color: #3C2313;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  width: 100%;
+}
+.contacto h4 {
+  color: #fff;
+}
+.contacto h6 {
+  color: #8A8787;
+}
+.contacto .contenedor-info {
+  display: flex;
+  flex-direction: column;
+}
+.contacto .contenedor-info .box-iconos {
+  display: flex;
+  margin: 10px 0;
+}
+.contacto .contenedor-info .box-iconos .txt-info {
+  margin-left: 20px;
+}
+.contacto .logotipo-bottom {
+  color: #F0A83E;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.contacto .logotipo-bottom span {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222222;
+  height: 20px;
+  width: 100%;
+}
+footer .derechos {
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 12px;
+  padding: 5px 0;
+}
+
+/* Responsive - Media queries */
+@media screen and (max-width: 768px) {
+  .promo img {
+    width: 27vw;
+  }
+  .box-title {
+    height: auto;
+    padding: 10px;
+    width: auto;
+  }
+  .box-title .titulo-principal {
+    font-size: 1.25rem;
+  }
+  .titulo-banner {
+    font-size: 0.875rem;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .titulo-banner .btn-banner {
+    height: auto;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    width: auto;
+  }
+  .titulo-banner .btn-banner p {
+    font-size: 0.875rem;
+  }
+  .msj-suscribirse {
+    font-size: 1rem;
+  }
+  .txt-mail {
+    width: 190px;
+  }
+  .btn-send {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+  .btn-send a {
+    font-size: 0.75rem;
+  }
+  .newsletter {
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+  }
+  .suscripcion {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-container-top {
+    display: none;
+  }
+  .header-container-bottom .logotipo {
+    font-size: 1rem;
+  }
+  .header-container-bottom .logotipo span {
+    font-size: 1rem;
+  }
+  .header-container-bottom .menu-nav {
+    display: none;
+  }
+  .header-container-bottom .menu-nav li {
+    padding: 0 10px;
+  }
+  .header-container-bottom .menu-nav li::before {
+    content: url(../img/pawprint\ 1.png);
+  }
+  .header-container-bottom .menu-nav li a {
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  .header-container-bottom .menu-nav li a:hover {
+    text-decoration: underline;
+  }
+  .header-container-bottom .menu-bar {
+    color: #fff;
+    display: block;
+  }
+  .banner-central .box-title .titulo-principal {
+    margin: 10px auto;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+  }
+  .banner-central .titulo-banner {
+    color: #FFF;
+    margin-right: 80px;
+  }
+  .banner-central .titulo-banner .btn-banner {
+    margin-right: 80px;
+  }
+  .content-title .titulo-productos {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .productos {
+    align-items: center;
+    flex-direction: column;
+  }
+  .productos .promo img {
+    width: 70vw;
+    margin: 10px 0;
+  }
+  .contacto {
+    flex-direction: column;
+  }
+  .contacto .logotipo-bottom {
+    font-size: 0.9375rem;
+    order: -1;
+  }
+}/*# sourceMappingURL=estilos.css.map */
